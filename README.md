@@ -22,6 +22,7 @@ Welcome to the server-side component of our web coding platform. This backend is
    db: 'mongodb://localhost/webCoding',
    ```
    This step is crucial for local development and testing.
+   Add /Lobby to the url. 
 
 ### Running the Server
 
