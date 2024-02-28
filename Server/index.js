@@ -1,10 +1,10 @@
 const winston = require('winston');
 const express = require('express');
 const http = require('http');
-const cors = require('cors'); // Import CORS package
+const cors = require('cors'); 
 const app = express();
 
-app.use(cors()); // Enable CORS for all routes and origins
+app.use(cors()); 
 
 app.use(express.static('public'));
 
