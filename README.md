@@ -17,9 +17,12 @@ Welcome to the server-side component of our web coding platform. This backend is
    ```sh
    npm install
    ```
-4. To run the server locally, ensure MongoDB is installed and running on your system. In `logging.js`, replace the database connection string to use your local MongoDB instance:
+4. To run the server locally, ensure MongoDB is installed and running on your system. In `logging.js` and `fefault.json` , replace the database connection string to use your local MongoDB instance:
    ```javascript
-   db: 'mongodb://localhost/webCoding',
+   db: 'mongodb://localhost/webCoding' // logging.js
+
+   "db": "mongodb://localhost/webCoding" // default.json
+
    ```
    This step is crucial for local development and testing.
    Add /Lobby to the url. 
